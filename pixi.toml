@@ -6,14 +6,18 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-clean = "rm -rf ./.build; rm -rf ./.updated"
-build = { cmd = "hydromt build wflow_sbm ./.build -i ./config/wflow_build.yml -d ./config/deltares_data.yml -d ./config/deltares_data_ksathorfrac.yml -vvv" }
-update = { cmd = "hydromt update wflow_sbm ./.build -o ./.updated -i ./config/wflow_update_forcing.yml -d ./config/deltares_data.yml -vvv" }
-reproduce = { depends-on = ["clean", "build", "update"] }
+clean-build = "rm -rf ./.build"
+build = { cmd = "hydromt build wflow_sbm ./.build -i ./config/wflow_build.yml -d ./config/deltares_data.yml -d ./config/deltares_data_ksathorfrac.yml -vvv", depends-on = ["clean-build"] }
+copy-build = { cmd = "cp -r ./.build ./.updated" }
+update = { cmd = "hydromt update wflow_sbm ./.updated -i ./config/wflow_update_forcing.yml -d ./config/deltares_data.yml -vvv", depends-on = ["copy-build"] }
+full-reproduce = { depends-on = ["build", "update"] }
+
 
 [dependencies]
 python = "3.13.*"
+pytest = "*"
+netcdf4 = "*"
+h5py     = "*"
 
 [pypi-dependencies]
-hydromt_wflow = { version = "*", extras = ["extra"] }
-hydromt = { version = "*", extras = ["io"] }
+hydromt = { path = "../hydromt/hydromt", extras = ["io"] }
