@@ -6,10 +6,10 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-delete-repro = "rm -rf ./.repro || true"
+clean = "rm -rf ./.build; rm -rf ./.updated"
 build = { cmd = "hydromt build wflow_sbm ./.build -i ./config/wflow_build.yml -d ./config/deltares_data.yml -d ./config/deltares_data_ksathorfrac.yml -vvv" }
-update-forcing = { cmd = "hydromt update wflow_sbm ./.build -o ./.updated -i ./config/wflow_update_forcing.yml -d ./config/deltares_data.yml -vvv" }
-reproduce = { depends-on = ["delete-repro", "build", "update-forcing"] }
+update = { cmd = "hydromt update wflow_sbm ./.build -o ./.updated -i ./config/wflow_update_forcing.yml -d ./config/deltares_data.yml -vvv" }
+reproduce = { depends-on = ["clean", "build", "update"] }
 
 [dependencies]
 python = "3.13.*"
