@@ -1,0 +1,17 @@
+meta:
+  root: /p/wflow_global/hydromt_wflow/catalog
+  version: v1.0.0
+  hydromt_version: '>1.0a,<2'
+
+ksathorfrac:
+  data_type: RasterDataset
+  uri: soil/ksathorfrac.zarr
+  driver:
+    name: raster_xarray
+    options:
+      chunks:
+        lon: 2400
+        lat: 2400
+  metadata:
+    resolution: 250 metres
+    crs: 4326
