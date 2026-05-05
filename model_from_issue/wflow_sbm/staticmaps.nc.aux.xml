@@ -1,0 +1,2027 @@
+<PAMDataset>
+  <Subdataset name="//gauges_grdc">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">9114543</MDI>
+          <MDI key="STATISTICS_MEAN">8366844.5</MDI>
+          <MDI key="STATISTICS_MINIMUM">6123790</MDI>
+          <MDI key="STATISTICS_STDDEV">1295028.119413</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.0997</MDI>
+          <MDI key="_FillValue">0</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//land_elevation">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">elv.vrt</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1459.4320068359</MDI>
+          <MDI key="STATISTICS_MEAN">778.38688258995</MDI>
+          <MDI key="STATISTICS_MINIMUM">525.06701660156</MDI>
+          <MDI key="STATISTICS_STDDEV">137.94892917946</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="unit">m</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//land_manning_n">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.60000002384186</MDI>
+          <MDI key="STATISTICS_MEAN">0.37933399090691</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.15767800807953</MDI>
+          <MDI key="STATISTICS_STDDEV">0.099594368024364</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//land_slope">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">slp.vrt</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.43811500072479</MDI>
+          <MDI key="STATISTICS_MEAN">0.094242143690958</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.016275998204947</MDI>
+          <MDI key="STATISTICS_STDDEV">0.058229368670499</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="unit">m.m-1</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//land_water_fraction">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.64247167110443</MDI>
+          <MDI key="STATISTICS_MEAN">0.0027573387632585</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0.025178655894512</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//local_drain_direction">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="long_name">ldd flow direction</MDI>
+          <MDI key="STATISTICS_MAXIMUM">9</MDI>
+          <MDI key="STATISTICS_MEAN">5.4353741496599</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">2.3462268465704</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_landuse">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">126</MDI>
+          <MDI key="STATISTICS_MEAN">78.202267573696</MDI>
+          <MDI key="STATISTICS_MINIMUM">30</MDI>
+          <MDI key="STATISTICS_STDDEV">43.378876060614</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">0</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soil_texture">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">SoilThickness_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">12</MDI>
+          <MDI key="STATISTICS_MEAN">9.372335600907</MDI>
+          <MDI key="STATISTICS_MINIMUM">5</MDI>
+          <MDI key="STATISTICS_STDDEV">1.2000212529591</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_0.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2539.5061035156</MDI>
+          <MDI key="STATISTICS_MEAN">1082.9954869415</MDI>
+          <MDI key="STATISTICS_MINIMUM">337.92184448242</MDI>
+          <MDI key="STATISTICS_STDDEV">349.43914532839</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_100.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">681.56451416016</MDI>
+          <MDI key="STATISTICS_MEAN">195.6333849762</MDI>
+          <MDI key="STATISTICS_MINIMUM">32.230556488037</MDI>
+          <MDI key="STATISTICS_STDDEV">97.719189976415</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_15.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1650.8087158203</MDI>
+          <MDI key="STATISTICS_MEAN">728.65506807704</MDI>
+          <MDI key="STATISTICS_MINIMUM">207.82925415039</MDI>
+          <MDI key="STATISTICS_STDDEV">237.78532982208</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_200.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">676.03448486328</MDI>
+          <MDI key="STATISTICS_MEAN">193.21122265857</MDI>
+          <MDI key="STATISTICS_MINIMUM">28.910917282104</MDI>
+          <MDI key="STATISTICS_STDDEV">101.86008103649</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_30.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1089.9080810547</MDI>
+          <MDI key="STATISTICS_MEAN">366.25006241225</MDI>
+          <MDI key="STATISTICS_MINIMUM">79.387687683105</MDI>
+          <MDI key="STATISTICS_STDDEV">168.81993680979</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_5.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2565.4338378906</MDI>
+          <MDI key="STATISTICS_MEAN">1282.0513294038</MDI>
+          <MDI key="STATISTICS_MINIMUM">464.96075439453</MDI>
+          <MDI key="STATISTICS_STDDEV">352.65545216949</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_soilgrids_ksat_vertical_60.0cm">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">749.17437744141</MDI>
+          <MDI key="STATISTICS_MEAN">228.74759208004</MDI>
+          <MDI key="STATISTICS_MINIMUM">42.490142822266</MDI>
+          <MDI key="STATISTICS_STDDEV">112.82732314482</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_streamorder">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">6</MDI>
+          <MDI key="STATISTICS_MEAN">1.728798185941</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">1.0883471241623</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_subgrid_area">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2.3181517124176</MDI>
+          <MDI key="STATISTICS_MEAN">0.5970935516372</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.023882860317826</MDI>
+          <MDI key="STATISTICS_STDDEV">0.38102425911057</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="unit">km2</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_subgrid_elevation">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1371.5999755859</MDI>
+          <MDI key="STATISTICS_MEAN">750.30531823814</MDI>
+          <MDI key="STATISTICS_MINIMUM">452.20001220703</MDI>
+          <MDI key="STATISTICS_STDDEV">135.85590580409</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="unit">m+REF</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_subgrid_outlet_idx">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="long_name">subgrid outlet index</MDI>
+          <MDI key="STATISTICS_MAXIMUM">413434</MDI>
+          <MDI key="STATISTICS_MEAN">228377.97641723</MDI>
+          <MDI key="STATISTICS_MINIMUM">13743</MDI>
+          <MDI key="STATISTICS_STDDEV">86831.710223933</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-1</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_subgrid_outlet_x">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="long_name">subgrid outlet x coordinate</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2.96625</MDI>
+          <MDI key="STATISTICS_MEAN">2.7185319349962</MDI>
+          <MDI key="STATISTICS_MINIMUM">2.4154166666667</MDI>
+          <MDI key="STATISTICS_STDDEV">0.1289621561584</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">nan</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_subgrid_outlet_y">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="long_name">subgrid outlet y coordinate</MDI>
+          <MDI key="STATISTICS_MAXIMUM">46.090416666667</MDI>
+          <MDI key="STATISTICS_MEAN">45.834827097506</MDI>
+          <MDI key="STATISTICS_MINIMUM">45.614583333333</MDI>
+          <MDI key="STATISTICS_STDDEV">0.10333932261209</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">nan</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//meta_upstream_area">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1316.5913085938</MDI>
+          <MDI key="STATISTICS_MEAN">26.558796546187</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.023882860317826</MDI>
+          <MDI key="STATISTICS_STDDEV">118.52580113183</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="unit">km2</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//outlets">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">1</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">0</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_area">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3138799</MDI>
+          <MDI key="STATISTICS_MEAN">3138799</MDI>
+          <MDI key="STATISTICS_MINIMUM">3138799</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_area_id">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3381</MDI>
+          <MDI key="STATISTICS_MEAN">3381</MDI>
+          <MDI key="STATISTICS_MINIMUM">3381</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.6231</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_demand">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">8.1510000228882</MDI>
+          <MDI key="STATISTICS_MEAN">8.1510000228882</MDI>
+          <MDI key="STATISTICS_MINIMUM">8.1510000228882</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_initial_depth">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">21.982931137085</MDI>
+          <MDI key="STATISTICS_MEAN">21.982931137085</MDI>
+          <MDI key="STATISTICS_MINIMUM">21.982931137085</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_max_release">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">65.208000183105</MDI>
+          <MDI key="STATISTICS_MEAN">65.208000183105</MDI>
+          <MDI key="STATISTICS_MINIMUM">65.208000183105</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_max_volume">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">69000000</MDI>
+          <MDI key="STATISTICS_MEAN">69000000</MDI>
+          <MDI key="STATISTICS_MINIMUM">69000000</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_outlet_id">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3381</MDI>
+          <MDI key="STATISTICS_MEAN">3381</MDI>
+          <MDI key="STATISTICS_MINIMUM">3381</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_rating_curve">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">4</MDI>
+          <MDI key="STATISTICS_MEAN">4</MDI>
+          <MDI key="STATISTICS_MINIMUM">4</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_storage_curve">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">1</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_target_full_fraction">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">1</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//reservoir_target_min_fraction">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.0034301395062357</MDI>
+          <MDI key="STATISTICS_MEAN">0.0034301395062357</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.0034301395062357</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">0.02493</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//river_length">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2358.328125</MDI>
+          <MDI key="STATISTICS_MEAN">822.62766821828</MDI>
+          <MDI key="STATISTICS_MINIMUM">64.71875</MDI>
+          <MDI key="STATISTICS_STDDEV">327.79686087334</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">15.8</MDI>
+          <MDI key="unit">m</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//river_manning_n">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.050000000745058</MDI>
+          <MDI key="STATISTICS_MEAN">0.044546485484457</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.029999999329448</MDI>
+          <MDI key="STATISTICS_STDDEV">0.0070065243973635</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//river_mask">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="min_rivlen_ratio">0</MDI>
+          <MDI key="river_upa">4</MDI>
+          <MDI key="slope_len">2000</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">1</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">15.8</MDI>
+          <MDI key="unit">km2</MDI>
+          <MDI key="_FillValue">0</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//river_slope">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.049708634614944</MDI>
+          <MDI key="STATISTICS_MEAN">0.014531700187337</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0.011367292008532</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">15.8</MDI>
+          <MDI key="unit">m.m-1</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//river_width">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">27.952337265015</MDI>
+          <MDI key="STATISTICS_MEAN">4.6629278635377</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">5.225329095784</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">15.8</MDI>
+          <MDI key="unit">m</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_brooks_corey_c">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>8.795886580989226</HistMin>
+            <HistMax>9.824858124210969</HistMax>
+            <BucketCount>4012</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|1|0|1|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|0|1|0|1|0|0|0|1|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|1|1|0|1|0|1|0|0|1|0|0|1|1|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|1|1|0|0|1|0|0|0|0|1|1|0|0|0|0|2|0|0|1|0|0|0|0|2|0|0|0|1|0|0|0|0|1|0|2|1|1|0|0|0|0|1|1|0|0|1|1|0|1|0|0|2|0|0|0|0|1|0|0|0|2|0|0|0|0|1|0|1|1|1|1|1|0|0|0|1|1|0|0|0|1|0|2|2|0|2|1|1|0|0|1|0|0|0|0|1|2|0|1|2|0|1|1|0|1|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|1|0|1|1|0|0|1|0|1|0|0|2|0|1|1|1|0|1|0|2|0|2|0|0|1|0|0|0|2|0|1|0|1|0|0|0|0|1|0|2|0|0|4|0|1|2|0|0|0|1|3|1|0|0|1|2|2|1|0|0|1|1|0|0|0|2|0|1|0|0|0|2|0|2|0|0|0|2|1|1|2|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|1|0|0|1|0|2|0|0|0|1|1|1|1|1|1|0|0|0|2|1|1|0|1|3|1|0|0|1|0|0|1|0|0|3|1|0|0|1|0|0|1|0|0|0|0|0|0|0|1|1|1|1|0|0|0|1|0|2|0|0|1|2|1|0|1|0|0|0|0|0|1|0|0|0|1|3|0|0|0|1|1|1|0|1|2|1|0|0|1|1|1|0|2|0|1|2|0|3|0|1|0|0|1|0|0|2|1|3|1|1|1|0|0|1|0|1|0|0|0|1|0|1|0|4|2|0|0|0|0|1|1|2|0|1|0|1|0|0|1|1|1|0|1|2|1|0|0|0|0|0|2|0|0|2|0|1|2|1|0|1|1|0|1|3|1|1|1|0|0|0|1|0|0|2|1|1|1|1|1|3|2|0|2|2|0|0|3|0|1|1|0|2|2|0|3|1|0|0|0|0|1|2|0|2|0|0|1|1|1|0|1|2|2|0|2|1|1|0|3|1|0|4|2|0|3|1|1|0|0|1|1|1|3|1|2|1|1|1|1|2|2|0|0|0|0|0|2|2|0|3|3|1|1|0|2|1|2|0|3|0|1|2|0|1|2|1|1|1|2|0|0|1|0|2|1|1|0|1|0|1|2|4|1|1|2|1|1|3|2|2|1|1|2|1|0|1|2|1|3|1|0|0|1|2|0|0|1|1|2|3|2|1|3|1|1|2|0|0|0|0|1|3|1|0|1|0|2|0|0|1|2|0|0|0|1|1|0|2|2|1|1|0|3|0|1|1|1|2|3|1|1|2|0|0|2|3|0|0|1|1|1|1|3|2|1|0|2|1|0|2|2|0|2|0|1|4|0|3|0|2|1|2|0|0|2|0|3|0|2|2|2|1|1|0|0|0|0|2|1|4|1|1|4|2|0|0|1|4|2|3|4|0|1|0|3|0|2|0|2|0|2|1|0|0|1|0|1|0|1|3|0|2|2|0|2|2|2|1|1|1|0|1|1|1|2|1|1|0|1|1|0|0|3|0|2|2|2|0|1|2|2|2|0|1|0|4|2|2|0|3|3|2|2|0|2|2|0|3|0|3|1|2|4|4|1|0|0|2|0|5|2|1|0|0|2|1|2|2|1|0|0|0|2|2|3|2|3|2|1|0|1|3|0|2|1|0|2|0|1|5|2|1|1|1|0|0|1|0|3|0|2|2|2|0|1|2|0|1|0|0|1|2|2|1|1|1|1|1|3|2|2|0|3|3|1|3|1|1|1|2|1|3|2|2|1|0|0|1|1|1|1|1|2|0|0|2|2|1|1|3|3|1|2|2|3|3|2|1|0|3|2|1|0|1|2|1|1|2|1|1|3|1|2|0|3|0|1|2|1|0|0|4|1|1|2|3|0|1|2|1|2|1|1|1|2|0|1|0|1|2|1|2|2|2|2|2|2|2|3|0|3|0|0|0|1|1|0|0|0|2|1|1|2|0|0|1|1|1|0|0|2|1|1|0|0|1|3|1|0|1|1|2|1|0|2|0|4|3|0|1|3|3|1|2|3|2|2|1|4|0|0|2|1|3|0|3|1|2|2|1|1|2|1|1|4|3|2|0|2|0|4|2|1|0|1|1|2|2|0|2|4|1|2|0|1|1|3|0|0|0|0|2|1|2|0|1|1|3|3|3|0|2|0|1|2|0|2|0|2|1|1|1|1|1|0|2|1|1|0|1|0|0|1|1|1|1|2|1|4|0|2|1|0|0|0|1|1|0|2|2|2|0|1|1|2|1|1|2|1|3|2|3|0|0|1|2|1|1|0|2|2|4|1|3|2|2|2|0|1|1|1|3|2|0|3|0|0|3|1|3|1|3|0|1|2|1|2|0|3|0|1|1|6|1|2|3|1|3|0|1|0|3|0|2|0|0|4|0|5|1|3|2|0|1|1|1|1|2|2|1|1|2|1|0|0|0|0|0|2|0|0|1|1|1|1|2|0|3|1|0|1|0|0|1|1|2|0|2|3|1|0|0|2|2|1|0|1|2|0|1|1|0|1|1|1|2|0|1|1|3|1|1|1|0|0|0|0|2|1|0|1|2|2|3|0|1|0|0|3|0|2|0|1|0|2|0|2|2|3|1|3|2|0|0|0|2|0|0|0|0|0|0|1|0|1|1|0|2|3|1|0|2|2|0|1|2|2|3|3|0|0|2|1|2|0|0|1|2|0|0|0|2|1|1|0|3|2|0|0|1|0|0|2|4|1|0|0|1|0|4|1|2|3|1|1|0|0|1|2|2|0|1|2|2|1|0|1|0|0|1|0|1|0|1|4|1|2|2|1|2|1|2|0|2|0|2|1|1|2|2|1|1|1|1|2|2|1|1|0|1|1|1|1|1|1|2|1|0|0|2|1|1|1|0|1|0|1|2|2|0|1|1|2|1|1|1|1|1|2|0|1|1|0|0|0|2|1|0|0|0|1|0|0|1|0|0|2|1|1|0|0|1|1|1|1|0|0|2|5|0|1|1|1|0|2|0|0|1|0|1|0|1|2|0|0|2|0|0|1|2|1|0|0|4|0|1|0|2|1|0|2|1|2|1|0|2|1|0|1|2|2|1|0|0|2|0|2|0|2|2|0|0|0|1|1|0|3|0|2|2|0|0|1|1|0|2|0|0|1|0|3|2|2|2|2|1|0|1|0|0|2|2|1|3|2|2|0|1|0|0|1|0|1|0|0|1|0|1|0|0|0|1|2|1|2|2|0|0|0|1|0|2|1|2|2|0|1|1|1|1|0|0|0|0|0|0|1|1|0|1|0|1|2|2|1|0|0|1|2|1|0|2|1|1|5|1|3|0|1|1|2|1|0|1|2|2|0|1|0|1|0|0|3|1|1|0|3|1|1|3|0|0|1|0|1|1|0|2|1|2|0|0|0|0|0|1|0|1|1|3|0|1|0|0|1|1|1|0|1|0|0|0|1|1|0|1|1|1|2|0|2|2|2|1|0|0|0|1|0|2|1|0|1|0|0|1|0|1|1|1|0|0|2|0|1|1|0|1|0|1|0|1|0|0|0|0|1|3|1|1|1|1|1|2|2|1|0|1|1|1|0|1|0|1|1|1|2|2|0|1|1|1|1|0|1|0|2|1|1|0|0|1|1|0|1|1|1|1|1|0|2|0|2|1|0|1|0|0|1|1|0|0|1|0|0|1|0|2|1|1|0|0|0|0|1|0|0|0|1|0|1|0|0|1|1|0|0|1|0|1|1|1|2|1|0|3|0|0|0|1|1|2|0|3|0|1|0|1|1|1|0|0|1|1|0|3|0|2|1|2|1|2|1|0|0|1|1|1|0|0|0|1|2|0|0|1|1|1|1|3|2|1|0|1|2|1|1|0|0|0|0|0|1|1|1|1|1|0|0|0|1|0|2|0|0|1|0|1|1|2|2|2|2|0|0|0|1|0|3|0|2|1|0|0|1|0|1|0|1|1|0|0|1|0|0|0|1|2|0|0|1|0|0|1|0|3|1|0|1|1|1|0|0|0|0|1|0|0|0|0|0|2|0|0|0|0|1|0|0|1|1|1|0|0|2|0|0|4|0|2|0|0|1|0|1|0|1|1|0|1|0|3|1|1|1|0|1|0|0|1|0|1|2|2|0|0|1|1|1|0|1|0|3|1|2|0|2|1|1|0|0|1|1|2|2|0|0|1|0|0|1|0|1|0|0|1|0|0|1|0|1|2|0|0|2|0|0|0|0|1|0|0|1|0|1|0|0|0|1|0|0|1|0|1|0|1|2|0|0|3|0|1|1|2|0|0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|2|1|0|0|0|2|2|0|1|0|2|0|0|1|2|1|0|0|0|0|0|1|0|0|3|1|1|2|0|0|0|0|1|0|0|0|1|0|0|1|0|2|0|0|2|0|2|1|0|0|0|0|0|0|1|0|1|0|0|1|0|0|0|1|1|2|0|0|0|0|0|0|0|1|1|0|1|0|0|1|0|0|0|0|1|1|2|1|0|0|0|0|0|1|3|0|1|0|0|0|1|1|0|1|1|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|1|0|0|2|0|2|0|0|0|1|0|0|0|0|2|1|1|0|0|1|0|1|0|0|0|0|0|0|2|2|0|1|0|0|0|1|0|0|0|0|1|0|1|0|0|1|0|0|0|0|0|1|1|1|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|0|2|1|0|1|1|1|0|0|2|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|2|0|0|2|0|1|0|1|0|0|0|0|0|0|2|0|0|0|0|0|0|1|0|0|2|0|2|3|0|1|0|0|0|0|0|0|0|0|0|1|1|0|0|2|0|0|0|0|2|0|0|3|1|2|0|1|0|2|1|0|1|1|1|0|1|0|0|0|0|0|0|1|1|0|0|0|0|0|0|1|0|1|1|0|0|1|0|1|1|2|1|1|1|1|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|3|2|0|0|0|2|0|0|1|0|0|2|0|0|2|0|0|0|0|0|0|0|0|1|1|1|1|0|0|0|0|0|0|2|0|0|1|2|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|1|1|0|0|1|0|1|1|0|0|0|2|0|1|0|0|0|0|1|1|0|0|0|0|2|0|1|0|1|1|0|0|0|1|0|0|1|0|0|1|1|0|1|0|1|0|0|0|0|1|0|0|0|1|0|1|1|0|0|0|0|0|0|0|1|0|1|0|0|0|1|0|0|0|0|0|1|0|0|0|1|2|1|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|1|0|0|0|1|1|1|0|0|1|0|1|1|2|0|0|0|1|0|0|0|0|0|1|1|2|1|1|0|1|1|0|0|1|0|1|0|0|1|1|0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|1|0|1|1|0|0|0|0|0|0|0|1|2|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|2|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|1|0|0|0|0|0|1|1|1|0|0|1|0|0|0|0|1|1|0|0|0|0|0|0|0|1|0|0|1|1|1|0|0|0|0|1|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|1|0|1|0|0|0|0|0|0|1|0|0|2|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|3|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|1|0|0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="soil_fn">soilgrids</MDI>
+          <MDI key="STATISTICS_MAXIMUM">9.8247299194336</MDI>
+          <MDI key="STATISTICS_MEAN">9.1953108871875</MDI>
+          <MDI key="STATISTICS_MINIMUM">8.7960147857666</MDI>
+          <MDI key="STATISTICS_STDDEV">0.18217802623453</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="thickness">100</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">3 0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>8.707972972485742</HistMin>
+            <HistMax>10.20461514702109</HistMax>
+            <BucketCount>4012</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|2|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|3|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|1|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|1|0|1|1|0|0|0|0|1|0|0|0|1|0|0|1|0|1|1|1|0|0|1|0|1|1|0|0|1|0|0|2|0|0|0|0|0|1|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|1|1|3|0|0|0|0|0|2|0|1|0|0|1|1|0|0|0|0|2|2|1|0|1|0|0|0|0|0|0|1|1|0|0|0|0|1|0|1|1|0|0|0|0|0|1|0|0|0|0|1|0|0|1|0|1|0|0|0|0|1|1|1|1|2|0|0|0|0|0|1|0|0|0|0|2|1|0|0|0|0|1|0|1|0|1|2|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|1|1|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|1|1|0|0|3|0|0|1|2|0|0|1|0|1|0|1|0|2|1|0|0|0|0|0|0|1|1|1|2|0|0|0|0|1|0|1|0|0|0|0|1|0|1|0|1|1|0|1|0|0|0|1|0|1|1|1|1|2|1|1|0|1|0|0|0|1|0|0|0|3|0|0|0|0|1|0|2|0|0|1|0|0|0|0|0|0|0|0|1|2|0|0|0|1|0|0|1|1|0|1|1|1|0|2|0|0|0|1|0|1|0|0|1|0|3|0|1|0|0|0|1|0|1|0|0|0|2|0|1|0|0|0|0|0|0|2|0|1|1|2|0|0|0|1|2|0|2|1|0|0|1|0|0|2|2|1|0|0|0|0|0|0|2|0|2|1|0|0|2|0|0|1|0|1|0|1|1|1|3|0|1|0|1|0|0|1|1|0|2|0|0|0|0|1|0|1|3|0|1|2|0|1|1|0|0|0|1|0|2|0|1|0|0|0|0|0|0|2|0|1|0|0|2|1|1|1|1|2|0|0|1|1|0|0|1|0|0|2|0|0|1|1|0|0|1|0|0|0|1|1|0|1|0|0|0|1|0|0|1|1|1|0|1|1|1|4|0|0|1|0|1|2|2|1|1|1|1|0|1|0|0|2|0|0|0|0|1|0|2|0|0|1|1|1|0|1|0|0|0|1|1|1|1|0|2|1|1|0|1|1|0|1|0|0|1|0|0|2|1|0|0|0|0|1|1|3|1|0|2|0|2|1|0|0|2|0|1|0|1|2|1|3|0|2|0|0|2|0|1|1|0|0|1|0|2|0|2|0|1|0|1|1|2|1|2|0|0|0|1|2|3|0|2|1|1|0|0|2|1|0|0|2|3|0|1|1|0|0|0|1|2|0|0|0|0|1|1|0|0|1|0|2|2|0|0|2|1|1|1|1|1|0|2|0|1|0|2|0|1|0|0|1|0|2|0|2|1|0|0|2|1|2|2|2|0|2|1|0|0|0|0|0|0|1|0|2|0|0|1|1|0|1|0|0|0|1|0|1|2|1|0|2|3|2|0|0|0|0|3|0|0|2|0|1|1|1|0|2|0|2|2|1|2|1|1|1|3|1|1|0|0|1|2|1|1|1|1|2|1|0|1|2|2|1|0|1|1|0|0|1|2|0|0|2|1|1|1|1|1|2|0|0|0|3|3|1|2|1|0|0|0|1|1|0|1|0|0|0|2|0|0|0|1|3|1|0|1|2|0|0|0|2|1|1|1|1|3|0|1|2|1|0|1|1|1|2|1|3|3|0|0|0|2|1|1|0|1|0|0|1|0|0|0|1|1|1|1|0|2|0|2|0|1|1|2|2|2|4|0|2|1|0|0|0|2|2|1|3|1|1|1|2|1|0|1|0|0|2|0|5|1|0|0|1|3|0|2|0|1|1|0|1|1|1|1|0|0|0|0|2|2|5|0|4|0|1|0|1|0|0|2|4|0|1|1|0|1|0|1|3|1|0|1|1|0|1|0|2|2|2|0|1|1|0|2|0|0|1|1|3|0|1|1|0|1|0|1|0|2|2|1|0|1|0|1|1|2|1|0|1|0|0|1|1|2|1|0|2|0|3|1|0|1|1|1|2|1|1|2|0|2|0|0|0|1|2|1|0|0|1|1|3|3|0|1|0|1|0|2|1|3|1|0|2|0|0|0|0|0|2|0|0|3|0|0|4|0|1|1|1|0|0|1|1|1|1|2|0|0|2|0|2|2|0|0|0|1|0|1|1|1|0|1|0|2|0|2|0|3|0|0|2|1|1|2|0|0|0|0|0|1|0|4|0|1|0|1|1|2|0|0|0|1|0|0|1|2|2|0|1|2|0|0|0|0|0|1|2|1|1|4|2|1|1|0|1|0|1|0|0|1|0|0|2|0|1|2|1|2|1|2|1|1|0|0|2|0|0|1|2|1|3|1|1|1|2|2|0|0|2|0|1|0|0|0|1|3|0|1|1|3|0|0|0|1|0|1|1|2|1|2|1|2|1|1|1|0|0|3|1|1|4|3|0|0|0|2|1|1|0|2|0|1|2|1|1|0|0|2|0|1|0|2|1|0|0|1|2|0|1|1|2|1|2|1|3|2|2|1|3|1|1|1|1|2|0|1|0|2|0|0|0|2|0|0|1|0|0|4|1|1|2|0|2|1|1|1|2|1|0|0|2|0|2|0|0|1|1|1|1|0|1|2|0|2|1|0|1|0|0|0|0|1|1|0|0|0|0|0|2|1|1|0|1|1|1|1|0|1|3|1|1|1|1|0|1|1|1|0|3|2|0|2|1|0|3|0|0|3|3|2|1|0|2|1|1|1|2|0|1|3|2|0|1|1|2|0|1|1|1|3|0|1|1|2|1|2|2|4|1|1|0|1|1|1|1|0|1|3|0|2|0|0|0|1|4|2|2|1|3|0|0|0|1|2|0|1|3|0|2|0|2|0|3|2|1|2|0|2|0|0|1|2|1|2|0|2|0|3|3|1|2|3|1|1|0|0|0|2|2|2|0|1|1|0|0|0|2|0|1|1|1|4|3|1|0|1|1|1|1|3|0|1|1|1|1|0|2|1|3|0|0|1|0|1|0|2|1|1|0|1|1|1|3|0|0|1|1|1|1|2|1|1|1|0|1|1|3|0|1|1|1|0|1|5|1|2|0|1|0|2|0|0|0|2|2|2|2|3|6|0|1|1|2|1|0|0|0|2|2|2|1|0|0|0|4|1|1|3|0|3|2|4|2|0|0|2|3|1|1|0|4|1|0|1|0|3|1|1|2|1|2|1|0|1|1|0|2|4|1|1|5|0|2|1|0|0|0|2|1|0|2|0|1|1|1|1|3|3|0|1|0|1|4|0|1|3|5|0|0|0|1|1|0|2|1|0|2|0|1|0|0|1|0|0|0|0|2|1|2|0|1|1|2|1|2|1|2|4|0|1|2|1|0|2|1|0|2|0|0|0|1|1|1|2|4|1|1|1|1|3|2|0|0|1|0|2|1|2|0|2|1|2|0|3|1|0|1|1|0|2|0|0|1|0|0|2|1|3|2|0|1|2|1|1|2|1|3|0|3|0|2|1|2|2|0|0|1|1|2|2|1|0|0|1|3|3|0|2|0|1|1|2|1|0|0|0|0|0|2|2|0|0|1|1|2|2|1|1|0|2|2|0|3|1|2|1|1|0|2|1|2|1|1|1|0|3|0|0|3|3|2|0|0|2|0|2|0|2|0|3|0|0|1|1|1|0|3|1|2|4|1|0|3|2|2|0|1|0|1|1|1|1|0|2|0|0|0|2|0|1|0|0|2|2|0|1|1|1|2|2|0|1|1|1|2|1|1|1|1|0|0|2|2|2|1|1|1|0|1|0|3|1|1|1|1|0|3|0|2|0|1|0|4|1|1|0|0|2|1|2|2|0|2|3|0|1|0|0|1|1|0|0|1|1|3|2|0|0|2|1|2|0|2|2|0|0|0|3|0|2|3|2|1|0|1|0|2|0|5|1|0|2|1|1|2|1|3|0|4|1|2|1|0|1|0|1|0|2|0|0|1|1|1|0|2|0|1|2|0|1|1|1|3|0|0|2|2|0|1|1|1|1|3|1|1|1|0|1|2|1|0|0|1|1|1|0|0|0|1|2|1|0|0|0|1|2|1|2|1|2|2|0|2|1|0|1|0|3|0|0|1|0|2|2|0|2|1|1|1|0|0|1|0|1|0|0|3|1|2|1|0|2|0|1|2|0|2|0|1|2|1|1|0|2|1|0|2|0|2|1|0|2|0|0|1|2|0|1|1|0|0|2|0|1|0|0|0|0|1|1|0|2|2|1|2|0|1|1|0|1|1|1|1|0|4|2|0|2|0|1|0|1|1|1|1|0|1|0|0|0|2|0|2|1|0|2|0|2|0|1|5|2|1|0|3|1|0|0|0|0|0|1|3|2|0|0|2|1|0|1|0|0|1|0|0|1|2|0|0|0|1|0|0|1|1|0|1|0|0|1|0|0|1|0|1|0|2|2|0|1|0|0|0|0|1|2|1|0|3|1|1|3|1|0|0|0|0|0|1|2|0|0|1|1|2|1|0|0|0|2|2|0|0|1|3|1|1|0|0|1|3|0|0|0|1|1|0|2|0|0|1|0|1|0|0|1|0|0|0|0|2|1|0|1|1|1|0|2|1|2|0|1|1|0|1|0|1|1|0|2|1|4|2|1|0|1|0|0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|2|0|0|1|0|0|0|0|2|1|2|1|1|0|0|2|1|0|1|1|3|1|1|0|1|2|4|1|1|0|0|0|1|1|1|0|1|0|1|0|1|0|0|2|1|1|1|0|0|1|1|0|0|0|1|1|0|0|0|1|1|0|0|0|2|1|0|0|0|1|0|0|1|1|0|0|0|1|0|0|0|0|0|0|0|1|0|1|2|1|1|4|1|0|1|0|3|1|1|1|0|0|1|0|1|0|0|0|1|0|0|2|0|2|1|0|0|0|0|1|0|0|0|0|0|1|0|1|0|0|1|1|1|0|2|0|1|1|0|0|1|0|0|0|0|1|0|1|0|1|1|1|1|1|0|1|1|0|0|2|1|0|0|0|2|1|1|0|0|1|2|0|0|0|1|0|1|0|0|1|3|1|0|0|1|1|1|2|0|1|0|0|0|0|0|1|0|0|1|1|1|1|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|1|0|3|0|2|2|0|2|0|0|0|0|0|0|0|0|1|0|0|1|1|1|1|1|0|1|1|1|3|0|0|0|1|1|0|0|1|1|0|0|0|0|1|0|0|1|0|0|0|0|0|1|0|1|0|0|2|0|0|0|0|0|1|1|0|0|0|1|1|0|2|1|0|0|0|0|0|2|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|1|2|0|0|0|0|0|1|0|1|1|0|1|0|1|0|0|1|1|0|1|1|0|0|0|1|0|0|0|0|1|1|0|0|0|0|0|2|0|0|1|3|1|0|0|0|1|1|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|1|3|1|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|2|0|0|0|1|0|0|0|1|0|1|0|2|1|0|0|1|1|0|0|0|2|0|0|0|1|0|1|1|0|0|0|0|0|1|0|1|0|1|2|0|0|0|0|1|0|0|1|2|0|1|0|0|0|0|0|1|0|0|1|0|0|1|1|0|1|0|0|0|0|0|0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|1|0|0|0|2|1|0|1|0|0|1|0|1|0|1|0|0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|2|1|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|2|0|0|0|1|0|0|0|0|1|0|1|0|0|1|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|1|1|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|1|0|1|2|0|0|0|0|0|0|0|0|0|0|2|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|1|0|1|1|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|2|0|1|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|1|0|0|0|0|0|1|0|0|1|0|0|0|0|1|1|0|0|1|0|0|0|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="soil_fn">soilgrids</MDI>
+          <MDI key="STATISTICS_MAXIMUM">10.204428672791</MDI>
+          <MDI key="STATISTICS_MEAN">9.3469550813947</MDI>
+          <MDI key="STATISTICS_MINIMUM">8.7081594467163</MDI>
+          <MDI key="STATISTICS_STDDEV">0.27427526838167</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="thickness">300</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">3 0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>8.619322798782189</HistMin>
+            <HistMax>10.79293630308549</HistMax>
+            <BucketCount>4012</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|0|1|0|0|1|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|1|1|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|2|1|0|0|1|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|1|0|0|1|0|0|0|1|1|0|0|1|0|0|2|0|0|0|0|1|0|0|2|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|2|0|0|0|0|0|0|1|0|0|2|1|0|1|1|1|0|1|0|2|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|1|1|0|1|0|0|0|0|0|0|1|0|0|0|0|1|1|0|0|2|0|1|0|0|0|0|3|1|1|1|0|0|1|2|0|0|0|0|0|1|2|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|2|1|1|1|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|1|0|0|0|2|0|2|1|0|0|0|1|1|2|0|0|0|0|0|3|1|1|0|0|0|0|0|0|0|0|0|1|0|2|1|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|1|2|1|0|0|1|1|0|0|0|1|0|1|0|0|0|1|0|0|0|0|1|0|0|0|1|1|1|0|1|0|1|1|0|2|0|2|0|0|1|1|1|0|1|0|2|2|2|0|0|1|0|0|0|0|0|0|1|1|1|3|0|1|0|0|0|0|0|1|2|0|1|1|1|0|0|0|0|0|2|1|0|0|1|0|1|1|0|0|0|1|3|0|0|0|0|0|3|0|0|1|1|0|3|1|2|0|0|3|0|0|0|0|0|1|0|1|0|1|0|2|0|1|2|0|0|0|1|0|0|1|2|0|0|1|1|0|0|1|0|2|1|0|1|1|0|2|1|1|0|0|2|0|0|0|1|1|0|1|0|0|1|0|0|2|1|2|0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|1|1|1|1|1|0|1|1|0|1|1|1|2|0|0|0|0|1|1|1|2|1|2|1|1|1|1|1|1|0|1|0|0|0|2|1|2|0|1|0|0|1|0|0|1|1|1|1|0|1|0|1|2|0|0|0|0|0|1|1|0|2|1|0|1|2|1|0|0|0|0|1|3|1|1|2|0|0|2|0|2|0|1|2|0|0|0|1|0|0|0|1|2|1|2|1|0|0|2|2|0|0|1|0|0|2|0|0|1|1|1|0|2|1|0|1|0|1|0|0|1|0|2|1|2|1|3|0|0|1|1|1|1|2|0|2|1|1|0|1|1|1|0|0|1|1|0|2|0|0|1|0|2|1|0|1|1|2|3|0|1|0|1|0|1|2|1|1|1|1|3|0|0|1|2|1|1|0|2|1|2|0|0|0|1|1|1|2|2|0|1|0|1|1|0|3|1|2|0|1|1|0|2|0|2|1|0|0|1|0|1|2|0|1|1|2|1|2|2|0|1|2|0|1|1|0|1|1|0|2|0|0|0|1|2|2|0|0|0|1|0|2|2|1|1|0|2|0|0|0|3|0|1|3|2|2|0|1|1|1|2|1|0|1|0|1|0|0|0|2|4|0|1|1|2|1|1|3|2|1|1|1|0|3|1|0|1|1|2|1|0|1|0|1|0|1|1|3|2|0|0|1|0|0|0|3|0|0|0|1|1|0|0|2|2|1|0|0|0|0|2|0|4|1|0|1|2|0|2|2|0|1|3|0|1|0|1|2|2|0|1|2|1|1|1|1|1|1|1|4|0|2|2|2|1|2|1|1|1|0|1|1|2|1|1|3|0|0|1|1|0|1|0|0|1|1|0|1|0|0|4|2|2|1|0|0|2|1|0|1|0|0|1|0|1|4|1|1|1|2|0|0|1|1|1|0|1|3|1|2|1|1|2|0|3|0|2|2|2|0|2|0|0|1|0|0|0|2|0|0|0|0|2|0|1|1|1|2|0|0|1|0|0|1|0|3|1|1|0|1|0|0|1|2|1|1|0|1|0|1|0|1|2|0|1|0|0|2|3|2|2|0|1|2|0|0|1|1|2|0|1|1|2|0|1|0|2|1|0|0|0|0|1|0|1|2|0|2|3|0|1|2|1|2|0|0|0|1|0|2|1|1|1|0|1|0|2|1|1|1|1|3|0|4|0|1|0|2|0|1|0|1|0|1|0|1|3|1|2|1|0|0|3|0|0|0|0|1|0|0|0|1|0|0|2|0|0|1|0|1|1|0|0|0|1|0|0|2|1|1|0|0|1|0|0|0|1|0|1|0|0|1|0|0|0|1|1|2|1|0|0|1|1|1|0|0|1|3|0|0|1|1|1|1|2|0|0|0|2|4|0|1|0|0|0|0|1|2|1|2|0|2|0|3|0|1|0|0|0|0|0|0|1|1|3|0|0|0|0|0|1|2|0|2|2|0|0|0|1|1|1|0|2|1|2|0|1|2|0|0|0|3|0|0|1|2|2|1|0|0|0|1|1|2|0|0|0|1|0|1|2|1|0|1|0|1|0|0|0|2|0|1|2|0|0|2|3|1|1|0|0|3|1|1|1|0|0|2|3|0|0|2|2|2|0|1|0|1|0|0|0|0|1|2|1|1|0|1|2|0|1|2|1|2|1|0|0|0|0|2|1|0|1|2|2|0|0|1|1|2|1|0|0|1|0|0|0|0|0|2|3|0|0|0|2|0|1|0|0|0|0|0|1|3|0|1|0|1|1|1|0|2|1|2|0|0|1|0|1|1|2|2|2|1|3|1|3|0|2|0|1|0|3|2|0|0|3|1|1|1|0|1|0|1|0|0|4|1|1|4|0|1|1|1|0|1|1|2|0|0|0|1|1|0|1|0|3|1|0|0|1|2|0|0|0|0|1|0|0|1|1|0|1|1|1|2|2|0|0|1|1|1|2|2|3|1|0|1|1|1|2|0|1|1|0|0|0|0|1|2|2|2|1|1|0|0|2|1|2|0|0|1|0|1|1|2|0|0|0|1|1|2|1|0|0|0|1|0|1|1|0|0|0|0|1|1|1|2|0|2|2|1|1|1|1|1|1|0|2|0|2|0|1|0|1|2|0|2|0|2|1|1|1|1|1|2|0|0|1|3|1|0|1|2|0|3|1|2|1|0|0|1|2|2|1|0|3|0|0|0|0|2|2|3|0|0|1|1|1|1|1|2|1|2|1|0|2|2|0|1|0|1|2|1|1|2|1|3|1|0|0|2|0|1|0|2|1|1|0|1|0|2|1|0|2|0|0|2|0|0|0|0|0|1|2|1|3|2|1|1|0|2|0|0|0|1|1|1|1|2|0|0|1|3|1|1|1|0|1|2|1|1|1|0|0|1|1|1|0|0|3|0|0|1|3|1|2|1|2|0|2|0|2|2|2|1|1|0|0|0|0|1|3|0|3|1|2|0|0|1|1|0|2|0|1|0|1|1|2|3|0|2|1|2|2|2|1|0|3|2|2|1|1|2|1|1|2|1|3|1|1|0|1|0|1|1|1|1|1|2|1|0|3|1|0|0|0|1|1|0|1|2|1|1|0|0|1|1|0|1|4|2|2|2|2|2|1|2|0|1|0|0|0|0|0|2|0|0|4|0|1|0|2|1|3|3|3|1|0|2|0|0|0|0|0|0|1|1|2|2|3|0|4|1|0|1|1|0|2|1|0|2|4|2|0|3|3|1|1|1|1|0|1|0|3|0|2|2|0|1|2|1|1|0|4|3|4|0|0|1|0|1|2|0|2|3|0|2|0|0|0|1|3|4|0|0|3|1|1|2|2|3|1|1|5|0|1|1|0|0|0|2|1|0|0|2|1|0|0|2|0|2|0|1|0|2|1|4|0|1|1|3|2|2|1|2|0|5|3|1|1|2|0|1|0|1|1|1|1|1|1|0|2|0|0|2|1|2|0|0|1|1|0|2|2|0|0|2|1|1|1|0|1|1|2|2|2|1|1|0|0|2|0|0|0|0|0|1|0|2|0|3|1|0|1|2|1|2|1|0|0|0|0|3|3|1|0|1|1|2|1|2|1|1|2|0|0|1|3|0|1|1|2|0|1|3|0|1|1|0|0|2|2|2|0|0|1|1|1|1|1|3|0|0|2|0|1|2|0|1|0|2|2|0|3|2|3|1|1|0|0|0|4|0|1|1|2|1|2|5|3|0|0|0|1|1|2|0|0|3|0|0|1|4|1|1|0|2|1|1|1|1|1|0|0|1|0|2|0|1|2|0|3|1|1|1|0|0|4|1|0|3|2|1|0|3|1|1|3|0|3|0|1|0|1|2|0|1|0|0|0|1|3|0|1|0|0|0|0|5|1|0|3|1|0|0|2|0|0|2|1|0|0|3|2|0|3|0|1|1|1|0|0|0|0|1|0|0|0|0|1|1|1|0|0|2|0|1|0|3|0|1|1|0|2|0|1|2|0|0|2|0|3|3|1|0|3|0|1|1|2|0|4|1|1|2|0|1|0|0|1|0|2|0|0|1|1|2|2|0|0|2|1|0|0|0|1|4|0|1|1|0|0|0|1|1|0|0|0|1|3|1|0|3|1|3|0|2|0|1|1|3|0|0|1|1|0|0|1|0|1|1|2|1|1|0|0|0|1|2|2|0|0|0|1|1|0|1|0|0|1|0|0|0|0|0|1|0|2|1|0|1|2|2|0|1|1|2|1|0|0|0|2|1|1|2|0|2|2|1|3|2|0|1|2|0|0|1|2|1|0|0|1|1|0|0|2|0|0|1|1|0|0|1|0|2|0|0|0|2|0|1|1|0|1|5|1|0|1|1|2|0|0|2|0|1|0|0|2|1|1|1|0|1|1|0|0|0|0|1|0|0|0|2|2|2|0|2|0|2|0|1|0|3|0|0|1|1|0|0|0|0|1|2|0|1|1|1|1|0|0|0|0|1|1|1|0|1|1|0|0|0|0|1|0|1|1|1|3|0|1|1|0|0|2|2|2|2|0|1|1|1|1|1|1|1|1|0|0|0|0|1|1|2|1|1|0|1|0|1|0|0|0|0|0|1|0|1|0|1|0|1|0|1|1|0|0|0|0|0|0|1|1|2|0|1|2|1|0|0|0|2|2|0|1|0|3|1|0|1|0|0|0|1|2|1|0|1|0|2|1|0|0|0|0|0|1|0|0|1|0|0|0|0|1|0|0|0|0|2|2|0|1|2|1|1|0|2|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|1|0|1|0|0|0|0|1|1|1|0|0|0|0|0|0|1|1|3|0|0|0|0|0|0|1|1|0|1|0|0|3|0|0|0|0|1|1|1|0|0|3|0|2|2|1|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|2|0|0|1|1|1|0|0|0|2|0|0|1|0|0|0|0|0|0|2|0|0|3|0|0|1|1|1|1|0|0|0|2|0|0|3|0|1|1|0|1|0|0|0|0|0|0|1|0|0|1|1|2|0|0|1|0|0|0|1|0|0|1|0|0|3|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|0|2|0|0|1|0|1|0|2|1|0|0|2|0|0|0|0|0|0|0|0|0|0|0|1|0|0|2|1|0|0|1|0|0|2|0|1|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|1|3|0|1|0|0|1|2|0|1|1|0|0|0|1|1|1|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|1|2|1|1|1|0|0|0|0|2|1|0|0|0|1|0|0|0|2|0|1|0|0|0|1|1|0|0|0|1|0|0|1|0|0|1|1|0|2|1|0|0|1|0|1|0|0|0|0|1|0|0|0|2|0|0|1|0|0|0|1|0|0|0|1|0|1|1|1|1|0|0|0|0|1|2|1|0|0|0|0|0|1|1|0|1|0|1|0|0|1|0|0|0|0|0|0|2|0|0|0|0|2|1|1|0|0|0|0|0|0|0|2|1|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|1|0|0|0|0|0|1|0|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|1|0|0|0|0|1|1|0|0|0|0|2|0|0|1|0|1|0|0|0|0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|1|0|2|1|1|1|0|0|1|0|0|0|0|0|0|1|1|2|0|0|0|1|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|2|1|0|0|0|0|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|1|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="soil_fn">soilgrids</MDI>
+          <MDI key="STATISTICS_MAXIMUM">10.792665481567</MDI>
+          <MDI key="STATISTICS_MEAN">9.5220400237172</MDI>
+          <MDI key="STATISTICS_MINIMUM">8.6195936203003</MDI>
+          <MDI key="STATISTICS_STDDEV">0.41031189848837</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="thickness">800</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">3 0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="4">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="soil_fn">soilgrids</MDI>
+          <MDI key="thickness">800</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">3 0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_compacted_fraction">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.47289684414864</MDI>
+          <MDI key="STATISTICS_MEAN">0.010895250178131</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0.035451608932998</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_f">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">SoilThickness_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.0048083076253533</MDI>
+          <MDI key="STATISTICS_MEAN">0.0025518894763114</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.0010363314067945</MDI>
+          <MDI key="STATISTICS_STDDEV">0.00050450748315541</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_f_">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">SoilThickness_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.0017606841865927</MDI>
+          <MDI key="STATISTICS_MEAN">0.0012348357964489</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.00065204373095185</MDI>
+          <MDI key="STATISTICS_STDDEV">0.00017919217168166</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_ksat_vertical">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">PHIHOX_M_sl1_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2539.5061035156</MDI>
+          <MDI key="STATISTICS_MEAN">1082.9954869415</MDI>
+          <MDI key="STATISTICS_MINIMUM">337.92184448242</MDI>
+          <MDI key="STATISTICS_STDDEV">349.43914532839</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_theta_r">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">SoilThickness_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.10035461932421</MDI>
+          <MDI key="STATISTICS_MEAN">0.088193965813065</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.074732318520546</MDI>
+          <MDI key="STATISTICS_STDDEV">0.0049710716063608</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_theta_s">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">SoilThickness_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.50818562507629</MDI>
+          <MDI key="STATISTICS_MEAN">0.45365989835354</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.43350285291672</MDI>
+          <MDI key="STATISTICS_STDDEV">0.012196105331758</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//soil_thickness">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="source_file">SoilThickness_250m_ll.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2000</MDI>
+          <MDI key="STATISTICS_MEAN">1999.9807985336</MDI>
+          <MDI key="STATISTICS_MINIMUM">1988.5854492188</MDI>
+          <MDI key="STATISTICS_STDDEV">0.35636076249241</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">-9999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//subcatchment">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">1</MDI>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">0</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_crop_factor">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1.2000000476837</MDI>
+          <MDI key="STATISTICS_MEAN">1.0662975665123</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.95008504390717</MDI>
+          <MDI key="STATISTICS_STDDEV">0.039748355810322</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_feddes_alpha_h1">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">0.97097505668934</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0.16787643067587</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_feddes_h1">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0</MDI>
+          <MDI key="STATISTICS_MEAN">0</MDI>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_feddes_h2">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-100</MDI>
+          <MDI key="STATISTICS_MEAN">-100</MDI>
+          <MDI key="STATISTICS_MINIMUM">-100</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_feddes_h3_high">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-400</MDI>
+          <MDI key="STATISTICS_MEAN">-400</MDI>
+          <MDI key="STATISTICS_MINIMUM">-400</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_feddes_h3_low">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-1000</MDI>
+          <MDI key="STATISTICS_MEAN">-1000</MDI>
+          <MDI key="STATISTICS_MINIMUM">-1000</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_feddes_h4">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-16000</MDI>
+          <MDI key="STATISTICS_MEAN">-16000</MDI>
+          <MDI key="STATISTICS_MINIMUM">-16000</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_kext">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.80000001192093</MDI>
+          <MDI key="STATISTICS_MEAN">0.71823781451671</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.27076190710068</MDI>
+          <MDI key="STATISTICS_STDDEV">0.057732098904081</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_leaf_area_index">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>0.1305728800175108</HistMin>
+            <HistMax>2.168901970279463</HistMax>
+            <BucketCount>4012</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|1|0|1|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|2|0|0|0|0|0|0|1|0|1|0|3|0|1|0|0|0|0|0|0|0|1|0|0|0|1|0|1|0|0|0|0|0|1|1|0|1|0|0|0|0|0|1|0|1|0|1|0|0|0|1|0|0|1|0|0|0|2|3|0|0|0|0|1|0|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|1|0|0|0|1|0|0|0|0|0|0|0|1|0|1|2|1|0|1|0|0|1|1|0|0|1|2|0|0|0|0|0|0|1|0|0|1|1|2|0|0|1|1|0|2|0|3|0|0|0|1|2|0|2|2|2|0|0|0|0|3|2|2|0|1|1|1|2|0|2|1|1|1|1|1|1|0|3|0|0|0|0|0|1|0|0|0|1|0|3|2|0|0|0|1|0|0|1|0|1|1|2|1|1|2|1|0|2|0|1|0|1|1|2|2|2|1|1|1|1|1|8|0|1|2|0|1|1|0|1|1|1|1|2|2|2|0|0|0|1|2|1|1|2|0|1|1|1|0|2|0|1|3|0|0|0|2|3|1|1|2|3|3|1|3|2|0|2|4|0|1|2|1|2|0|2|1|1|2|2|1|0|0|1|5|4|1|2|1|0|5|1|2|1|3|2|4|1|0|3|0|1|2|2|1|2|4|2|3|2|0|2|3|2|0|1|0|1|3|3|3|3|2|1|0|1|2|0|5|2|3|2|4|1|2|6|4|1|1|3|3|3|2|0|0|2|3|2|2|0|2|1|4|2|1|1|4|2|3|4|4|3|6|0|3|2|3|2|5|3|0|3|5|2|1|4|4|4|4|1|1|2|2|2|2|1|3|2|2|7|2|1|1|4|5|4|2|3|1|6|4|4|5|2|2|5|2|8|2|3|3|4|2|4|2|1|3|15|2|6|3|2|4|2|1|7|4|2|7|3|5|4|2|3|1|3|2|2|4|0|3|5|2|3|5|6|5|4|2|3|1|8|2|6|2|5|4|4|3|7|4|5|5|0|2|3|3|4|2|3|1|2|1|2|4|2|4|6|3|3|4|0|2|1|2|4|3|2|5|3|1|3|2|3|4|3|5|3|6|1|3|3|4|6|1|3|4|6|4|1|4|2|5|4|5|4|7|6|3|2|5|1|3|4|7|6|2|3|3|4|2|1|6|5|3|5|2|1|4|6|6|4|5|3|5|7|6|5|5|2|1|9|4|3|3|5|2|4|3|3|3|4|2|1|6|3|5|7|2|7|3|1|4|1|5|8|2|4|7|4|6|5|1|6|5|4|1|7|4|3|7|3|2|3|5|3|8|2|3|5|4|2|9|3|5|1|4|8|3|2|1|3|5|2|15|5|2|5|5|2|5|3|2|3|5|1|2|2|7|3|5|0|4|3|2|4|1|1|0|2|1|4|3|4|5|3|2|11|1|7|1|2|0|2|4|5|3|2|6|1|2|2|4|8|4|4|2|4|5|3|3|2|1|2|4|2|4|1|3|1|5|2|2|2|3|1|2|2|2|2|3|4|4|1|5|3|3|4|3|2|6|6|3|3|3|3|5|2|3|4|1|2|4|4|3|0|5|0|4|2|5|4|1|4|3|4|3|2|1|1|6|3|2|2|8|4|0|1|2|0|3|3|3|1|0|1|2|2|0|3|1|3|6|9|3|1|3|2|4|1|3|1|1|1|4|3|4|3|1|5|2|1|3|1|5|2|1|3|0|1|2|1|3|5|2|4|1|3|3|2|1|2|2|3|1|1|0|2|0|0|0|2|3|1|3|2|5|2|1|2|3|4|1|2|2|1|0|0|0|1|2|1|2|2|2|1|2|0|2|1|1|2|1|1|4|0|3|5|0|3|1|2|0|2|0|0|2|1|1|2|0|1|1|0|0|2|1|1|1|1|1|0|1|0|0|1|2|1|0|0|1|2|1|0|0|0|0|2|0|0|2|0|0|1|0|1|1|1|1|4|2|1|3|1|1|1|2|0|2|0|1|0|3|1|0|0|1|0|0|0|0|1|0|2|0|1|1|2|1|2|0|2|3|1|1|0|2|1|0|0|0|0|1|0|1|0|0|0|0|0|0|0|1|1|1|0|0|2|0|1|2|0|1|1|0|0|1|0|1|0|0|0|1|1|0|0|0|0|1|0|1|2|0|0|0|0|0|1|0|1|0|0|1|0|1|1|1|0|1|0|0|0|0|1|1|0|0|1|1|1|0|1|0|0|2|0|0|0|2|0|0|0|0|0|0|0|1|0|1|1|0|0|1|0|0|0|0|0|0|0|0|1|0|0|1|0|0|1|0|0|0|0|1|0|3|1|0|0|0|0|2|0|2|0|0|0|0|1|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|1|2|0|0|0|0|0|1|0|1|0|0|0|0|0|1|0|1|0|0|1|0|1|1|0|0|0|0|0|0|1|0|1|0|1|0|0|0|0|0|1|1|0|0|0|0|0|1|1|0|0|0|0|1|1|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|2|1|1|0|0|0|0|0|0|1|0|0|1|0|0|0|2|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|0|0|1|0|0|0|1|0|0|1|0|1|0|0|0|0|1|0|0|0|0|0|1|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|1|0|1|0|1|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|1|0|0|0|0|0|0|0|0|1|0|1|0|1|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|2|0|0|0|0|0|0|1|0|1|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|2|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|1|0|1|0|0|1|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|2|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2.1686480045319</MDI>
+          <MDI key="STATISTICS_MEAN">0.70563430818571</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.13082684576511</MDI>
+          <MDI key="STATISTICS_STDDEV">0.20652210116877</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>0.05675894352686355</HistMin>
+            <HistMax>2.180620648385168</HistMax>
+            <BucketCount>4012</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|1|0|0|0|0|1|0|0|1|0|1|0|0|1|0|0|1|0|0|0|1|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|2|0|0|0|0|1|0|0|1|1|0|0|0|0|1|0|0|0|1|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|1|1|1|0|0|0|0|0|0|0|0|0|0|2|0|0|0|1|0|0|0|1|0|1|0|0|1|0|0|0|1|0|0|0|0|0|0|0|1|4|0|0|0|3|2|0|0|0|1|1|1|2|1|0|0|3|0|1|1|0|0|1|0|1|0|0|1|1|0|0|0|0|1|0|0|0|0|0|0|1|0|2|0|0|1|1|0|0|0|0|1|1|0|0|0|2|0|1|2|0|0|0|0|0|0|1|0|2|0|2|1|0|0|0|0|0|1|1|1|0|0|0|0|2|2|2|0|1|0|1|0|0|1|1|2|1|0|3|1|0|0|0|1|1|1|1|1|2|2|0|0|1|2|3|1|1|0|0|1|0|0|0|1|0|1|0|0|2|0|2|0|1|1|0|0|0|0|1|1|2|0|3|0|2|0|0|1|0|1|2|2|2|0|0|0|1|2|3|0|0|0|2|1|1|1|1|2|1|1|2|1|1|0|3|1|1|1|2|1|0|1|2|1|0|0|0|0|0|1|1|1|1|0|1|0|0|1|0|0|2|1|1|0|2|13|1|1|0|1|1|2|0|3|0|0|1|1|1|1|1|0|3|1|0|0|0|1|2|0|1|1|3|0|0|2|1|1|1|2|3|1|1|4|2|0|2|1|1|0|2|1|1|1|4|4|0|1|0|1|0|2|0|2|1|5|1|1|1|1|3|1|0|1|2|2|3|2|0|2|2|1|1|0|1|2|1|1|1|4|0|3|6|3|1|1|2|3|2|2|3|0|2|0|1|2|2|4|1|2|0|1|2|4|3|0|1|0|0|3|3|1|2|4|4|1|4|4|4|1|2|2|3|2|1|1|2|4|1|1|2|1|5|1|1|1|1|4|4|0|0|4|1|1|1|3|4|1|2|3|2|5|2|3|1|5|2|2|4|3|1|2|3|3|5|2|5|3|1|1|5|3|4|1|3|2|1|4|2|0|3|0|5|5|8|2|1|4|1|1|2|2|5|1|1|6|3|1|2|3|4|3|4|1|1|2|1|4|4|3|2|4|4|3|2|0|4|2|1|7|4|0|7|7|3|5|4|4|4|2|3|5|4|2|4|3|5|3|3|5|3|2|3|3|5|8|4|1|4|2|4|2|4|2|3|1|4|2|4|5|1|1|4|3|1|2|3|6|3|2|4|4|3|2|2|2|5|3|6|3|1|3|10|2|3|3|2|0|3|1|3|2|3|6|2|0|6|3|4|6|4|2|5|7|3|1|6|2|7|5|3|3|3|4|7|4|7|1|2|5|4|1|4|3|4|3|1|1|6|5|1|4|4|3|1|3|5|1|2|7|4|3|4|3|2|2|2|5|2|3|6|3|5|1|2|6|3|3|2|4|2|1|5|5|1|3|0|3|6|1|4|5|0|18|3|6|2|2|6|3|2|6|6|4|6|5|0|8|6|2|4|4|4|4|5|5|5|6|6|1|4|5|0|3|4|2|3|0|6|3|5|3|5|7|5|3|5|4|2|1|4|2|5|5|3|4|3|0|4|1|3|1|3|7|3|2|1|1|5|2|4|6|4|3|2|2|2|3|2|3|2|0|5|1|5|1|4|4|2|3|5|7|3|3|4|6|5|6|3|2|4|6|2|3|2|6|5|7|2|2|3|3|1|1|4|3|5|2|2|5|2|4|1|2|2|2|1|0|2|2|6|5|2|3|1|0|5|6|1|1|2|2|2|3|3|5|4|3|7|1|0|6|1|4|6|2|3|2|2|5|1|1|5|0|2|2|2|4|0|2|4|2|0|3|0|1|5|2|2|1|5|3|3|0|1|2|2|4|2|4|2|8|1|3|1|0|1|3|1|0|4|2|3|0|0|0|4|4|0|1|0|2|1|2|2|3|2|3|1|0|1|1|5|2|1|3|2|1|2|1|3|1|2|1|1|1|3|1|2|3|0|2|3|1|0|1|2|0|0|0|2|2|1|1|3|1|2|0|2|1|1|1|4|0|1|4|1|1|1|0|0|1|0|1|1|1|0|3|1|1|2|2|0|1|0|1|0|1|1|0|1|3|1|1|0|0|0|0|0|0|0|0|2|3|1|0|0|2|1|2|0|1|0|1|2|0|1|2|0|0|0|1|0|2|1|0|0|0|1|1|2|0|2|0|0|0|0|2|2|2|0|1|0|0|0|0|1|2|2|0|1|1|1|0|0|0|0|1|1|1|0|3|0|0|0|0|0|0|0|1|1|0|1|1|0|1|1|0|1|1|1|0|1|1|0|2|0|0|0|3|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|1|1|0|0|0|1|1|0|0|0|1|0|0|1|0|0|0|0|1|0|0|0|0|2|1|1|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|1|0|0|0|1|1|1|1|0|1|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|1|0|0|0|1|0|1|0|2|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|1|0|1|0|0|0|0|0|0|1|0|0|1|0|1|1|0|0|0|0|0|1|0|1|1|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|1|0|0|0|0|0|0|1|0|0|0|2|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|1|0|1|0|0|0|0|0|0|0|1|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|1|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|1|0|0|2|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|2|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|2|1|1|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|2|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|1|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|1|0|0|0|2|0|1|0|0|0|1|0|0|0|2|0|0|0|1|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2.1803560256958</MDI>
+          <MDI key="STATISTICS_MEAN">0.70434290635106</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.05702356621623</MDI>
+          <MDI key="STATISTICS_STDDEV">0.22391266599968</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>0.2229515979380337</HistMin>
+            <HistMax>3.660105757942703</HistMax>
+            <BucketCount>4012</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|1|1|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|2|0|0|1|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|1|0|1|0|1|0|0|1|0|0|0|0|1|1|1|1|1|1|0|0|0|0|2|1|0|0|0|0|0|0|0|1|1|0|0|0|1|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|1|1|0|0|0|0|1|2|0|3|1|0|0|2|0|0|0|2|0|1|3|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|1|0|1|1|1|1|0|1|3|0|1|1|0|1|0|1|1|1|0|0|0|0|0|0|0|1|0|2|1|0|0|1|1|0|0|0|4|0|1|0|0|0|1|0|0|2|0|2|0|1|0|0|2|0|1|1|3|1|1|1|2|2|2|0|2|2|1|4|0|2|0|0|1|2|1|0|1|2|2|0|1|1|2|2|1|1|3|3|1|0|0|2|1|0|3|2|1|3|3|2|3|1|3|1|3|5|1|1|1|1|3|2|2|3|1|1|0|1|2|2|0|1|0|2|2|5|0|0|1|0|2|3|3|2|3|3|2|1|3|0|2|0|3|2|2|3|1|3|2|2|2|1|2|1|2|0|0|2|2|2|1|2|1|2|4|5|1|3|2|2|2|2|2|3|0|2|2|4|2|2|0|1|3|3|0|3|5|2|2|3|1|3|2|2|2|1|3|4|1|3|3|3|3|3|1|3|1|0|2|1|2|4|3|1|2|6|5|5|1|1|2|3|6|7|0|2|3|2|4|5|4|0|5|4|3|3|4|3|4|1|6|3|9|4|6|3|2|2|1|5|4|5|5|4|4|2|5|4|3|5|2|5|1|3|5|2|4|5|1|4|1|2|5|3|6|2|0|6|2|5|2|6|1|6|1|2|4|5|5|4|7|2|3|6|3|2|6|4|6|3|2|3|3|6|5|5|2|2|4|1|6|3|2|2|8|4|1|8|6|3|7|7|1|5|2|1|4|3|2|4|2|6|7|4|3|7|2|4|4|4|6|4|0|2|4|4|3|1|1|4|2|3|1|7|2|4|7|2|8|1|6|3|4|6|2|4|4|5|3|5|5|6|4|3|5|4|7|4|5|1|5|4|6|4|3|6|4|4|2|4|2|6|1|3|1|1|2|2|4|3|5|4|3|4|3|4|7|2|4|3|3|4|3|9|3|2|2|7|2|8|2|6|6|10|5|5|5|0|2|4|3|4|3|3|9|3|4|4|6|1|2|4|5|7|6|4|1|3|5|4|7|5|4|3|3|6|3|4|2|7|5|6|4|4|5|4|11|2|9|3|7|4|6|5|6|11|1|5|5|3|3|5|1|4|1|5|4|3|2|3|7|1|3|5|4|3|4|5|2|3|4|5|3|1|4|2|3|6|6|2|3|1|2|3|3|4|4|3|6|2|2|0|0|4|4|2|2|2|1|4|2|2|3|2|1|5|2|3|3|2|2|1|3|4|3|2|4|5|3|1|4|2|3|2|2|2|3|1|2|3|1|2|2|2|0|3|3|3|2|3|2|4|2|3|4|4|2|2|3|0|7|0|4|3|3|3|1|1|1|2|1|3|7|3|2|1|1|4|2|2|3|1|1|5|1|1|3|6|2|2|0|2|2|1|3|1|2|4|3|2|3|1|5|1|0|3|2|1|4|2|0|3|2|0|2|1|3|0|1|2|0|2|0|2|3|1|1|1|2|1|0|1|2|2|3|0|0|3|1|1|2|0|0|0|1|3|1|0|1|1|2|2|1|2|1|2|2|1|1|1|3|2|1|2|0|0|0|1|1|1|0|2|1|0|2|1|1|0|0|0|0|1|2|1|0|0|0|1|1|3|0|2|0|0|0|0|0|2|2|2|0|0|1|0|1|2|0|1|0|0|2|0|2|0|2|0|1|2|1|0|1|0|0|0|2|0|0|1|0|0|1|0|1|0|2|0|0|0|1|0|1|0|2|3|0|3|1|0|2|0|0|2|1|0|0|0|3|0|0|1|0|0|0|0|0|0|1|1|2|1|0|0|0|1|0|2|1|1|2|1|0|1|2|0|0|0|0|0|1|0|0|0|1|0|0|1|1|0|1|0|0|0|0|0|1|2|1|1|1|0|0|1|1|0|0|1|2|1|1|0|0|1|0|1|0|0|0|0|1|0|0|0|1|1|0|0|0|1|2|0|0|1|0|0|2|2|0|1|1|1|0|0|0|0|0|0|0|0|0|0|1|0|0|2|0|0|1|2|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|3|0|0|1|0|0|1|2|1|0|0|1|0|1|1|0|0|0|0|0|0|0|2|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|1|1|0|0|1|0|0|0|0|1|0|2|0|0|2|0|0|0|0|0|0|2|0|0|0|0|0|0|0|1|0|0|1|0|1|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|2|0|1|0|0|1|0|0|0|1|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|2|0|0|0|0|0|1|0|0|0|1|0|0|0|1|0|0|2|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|1|1|0|0|0|0|0|1|0|0|2|0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|2|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|1|0|0|1|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|1|1|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|1|1|0|1|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|1|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3.6596775054932</MDI>
+          <MDI key="STATISTICS_MEAN">1.1716843436432</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.22337985038757</MDI>
+          <MDI key="STATISTICS_STDDEV">0.30250881465279</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="4">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="5">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="6">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="7">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="8">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="9">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="10">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="11">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="12">
+        <Metadata>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="_FillValue">255</MDI>
+          <MDI key="_Netcdf4Coordinates">2 0 1</MDI>
+          <MDI key="_Netcdf4Dimid">2</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_leaf_storage">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.28994897007942</MDI>
+          <MDI key="STATISTICS_MEAN">0.16198859211404</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.067505531013012</MDI>
+          <MDI key="STATISTICS_STDDEV">0.034696677916724</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_root_depth">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">429.79998779297</MDI>
+          <MDI key="STATISTICS_MEAN">327.87218005468</MDI>
+          <MDI key="STATISTICS_MINIMUM">106.80000305176</MDI>
+          <MDI key="STATISTICS_STDDEV">74.276633570525</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="//vegetation_wood_storage">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="archive_facility">VITO NV</MDI>
+          <MDI key="AREA_OR_POINT">Area</MDI>
+          <MDI key="band_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="coordinates">spatial_ref</MDI>
+          <MDI key="copyright">Copernicus Service information 2020</MDI>
+          <MDI key="creator">Dr. Marcel Buchhorn (VITO)</MDI>
+          <MDI key="delivered_product_crs">WGS84 (EPSG:4326)</MDI>
+          <MDI key="doi">10.5281/zenodo.3518038</MDI>
+          <MDI key="file_creation">Mon Jul 13 19:29:25 2020</MDI>
+          <MDI key="flag_meanings">unknown, ENF_closed, EBF_closed, DNF_closed, DBF_closed, mixed _closed, unknown_closed, ENF_open, EBF_open, DNF_open, DBF_open, mixed _open, unknown_open, shrubland, herbaceous_vegetation, cropland, built-up, bare_sparse_vegetation, snow_ice, permanent_inland_water, herbaceous_wetland, moss_lichen, sea</MDI>
+          <MDI key="flag_values">0, 111, 112, 113, 114, 115, 116, 121, 122, 123, 124, 125, 126, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200</MDI>
+          <MDI key="grid_mapping">spatial_ref</MDI>
+          <MDI key="history">2020-07-10 Processing line LC100 v4.1</MDI>
+          <MDI key="Info">global for product Discrete-Classification-map of Copernicus Global Land Service LC100 layers for epoch 2018-conso</MDI>
+          <MDI key="institution">VITO NV</MDI>
+          <MDI key="long_name">Land Cover Classification</MDI>
+          <MDI key="NODATA_value">255</MDI>
+          <MDI key="orbit_type">LEO</MDI>
+          <MDI key="platform">Proba-V</MDI>
+          <MDI key="processing_level">L3</MDI>
+          <MDI key="processing_mode">Offline</MDI>
+          <MDI key="production_crs">UTM</MDI>
+          <MDI key="production_grid">MGRS (Sentinel-2 tiling grid)</MDI>
+          <MDI key="product_version">v3.0.1</MDI>
+          <MDI key="references">https://land.copernicus.eu/global/products/lc</MDI>
+          <MDI key="region_name">global</MDI>
+          <MDI key="sensor">VEGETATION</MDI>
+          <MDI key="short_name">Discrete-Classification-map</MDI>
+          <MDI key="source">Derived from EO satellite imagery</MDI>
+          <MDI key="source_file">PROBAV_LC100_global_v3.0.1_2018-conso_Discrete-Classification-map_EPSG-4326.tif</MDI>
+          <MDI key="STATISTICS_MAXIMUM">0.090000003576279</MDI>
+          <MDI key="STATISTICS_MEAN">0.0569905641305</MDI>
+          <MDI key="STATISTICS_MINIMUM">0.0059962584637105</MDI>
+          <MDI key="STATISTICS_STDDEV">0.022865831330297</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">54.96</MDI>
+          <MDI key="time_coverage_end">2019-12-31T23:59:59Z</MDI>
+          <MDI key="time_coverage_start">2017-01-01T00:00:00Z</MDI>
+          <MDI key="time_reference_year">2018</MDI>
+          <MDI key="title">Dynamic Land Cover Map 100m 2018-conso</MDI>
+          <MDI key="unit">None</MDI>
+          <MDI key="valid_range">0, 254</MDI>
+          <MDI key="_FillValue">-999</MDI>
+          <MDI key="_Netcdf4Coordinates">0 1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
