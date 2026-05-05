@@ -12,12 +12,27 @@ copy-build = { cmd = "cp -r ./.build ./.updated" }
 update = { cmd = "hydromt update wflow_sbm ./.updated -i ./config/wflow_update_forcing.yml -d ./config/deltares_data.yml -vvv", depends-on = ["copy-build"] }
 full-reproduce = { depends-on = ["build", "update"] }
 
-
-[dependencies]
+# Default dev environment (latest local hydromt + hydromt_wflow)
+[feature.dev.dependencies]
 python = "3.13.*"
 pytest = "*"
 netcdf4 = "*"
-h5py     = "*"
+h5py = "*"
 
-[pypi-dependencies]
+[feature.dev.pypi-dependencies]
 hydromt = { path = "../hydromt/hydromt", extras = ["io"] }
+
+# Environment reproducing the reporter's broken cluster setup exactly
+# Usage: pixi run -e reproduce update
+[feature.reproduce.dependencies]
+python = ">=3.13"
+numpy = "==2.3.5"
+hydromt = "==1.3.0"
+hydromt_wflow = "==1.0.1"
+xarray = "==2026.2.0"
+dask = "==2026.1.2"
+distributed = "==2026.1.2"
+
+[environments]
+default = { features = ["dev"], solve-group = "default" }
+reproduce = { features = ["reproduce"], solve-group = "reproduce" }
