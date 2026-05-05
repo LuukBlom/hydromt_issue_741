@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "reservoirs",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "reservoir_area": 3138799.0, "reservoir_initial_depth": 21.982931, "reservoir_rating_curve": 4, "reservoir_storage_curve": 1, "reservoir_max_volume": 69000000.0, "reservoir_target_min_fraction": 0.0034301395, "reservoir_target_full_fraction": 1.0, "reservoir_demand": 8.151, "reservoir_max_release": 65.208, "reservoir_area_id": 3381.0, "reservoir_outlet_id": 3381, "yout": 45.9775, "xout": 2.795 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 2.799167, 45.981667 ], [ 2.799167, 45.948333 ], [ 2.7825, 45.948333 ], [ 2.7825, 45.923333 ], [ 2.790833, 45.923333 ], [ 2.790833, 45.915 ], [ 2.765833, 45.915 ], [ 2.765833, 45.906667 ], [ 2.749167, 45.906667 ], [ 2.749167, 45.898333 ], [ 2.7325, 45.898333 ], [ 2.7325, 45.915 ], [ 2.749167, 45.915 ], [ 2.749167, 45.923333 ], [ 2.765833, 45.923333 ], [ 2.765833, 45.94 ], [ 2.774167, 45.94 ], [ 2.774167, 45.956667 ], [ 2.7825, 45.956667 ], [ 2.7825, 45.981667 ], [ 2.799167, 45.981667 ] ] ] } }
-]
-}

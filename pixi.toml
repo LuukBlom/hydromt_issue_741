@@ -5,7 +5,6 @@ name = "hydromt_issue_741"
 platforms = ["linux-64"]
 version = "0.1.0"
 
-
 [tasks]
 delete-repro = "rm -rf ./.repro || true"
 build = { cmd = "hydromt build wflow_sbm ./.build -i ./config/wflow_build.yml -d ./config/deltares_data.yml -d ./config/deltares_data_ksathorfrac.yml -vvv" }
